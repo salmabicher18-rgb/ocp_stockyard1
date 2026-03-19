@@ -1,0 +1,19 @@
+{
+  "name": "ocp-stockyard-backend",
+  "version": "1.0.0",
+  "description": "OCP Stockyard Management System - Node.js/Express Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "db:init": "psql $DATABASE_URL < db/schema.sql",
+    "db:seed": "psql $DATABASE_URL < db/seed.sql"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "helmet": "^7.1.0",
+    "pg": "^8.13.0"
+  }
+}

@@ -1,0 +1,1 @@
+DELETE FROM "Couches" WHERE id IN (8, 9, 10, 11, 12);

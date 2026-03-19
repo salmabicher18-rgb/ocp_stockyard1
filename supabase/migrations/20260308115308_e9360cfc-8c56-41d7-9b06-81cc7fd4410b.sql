@@ -1,0 +1,1 @@
+ALTER TABLE public."Machines" ADD COLUMN tas_associe TEXT DEFAULT NULL;

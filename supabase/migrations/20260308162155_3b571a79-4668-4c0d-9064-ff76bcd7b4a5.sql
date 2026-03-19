@@ -1,0 +1,2 @@
+UPDATE "TasBrut" SET statut = 'caracterise' WHERE in_stockyard = false AND (statut IS NULL OR statut != 'caracterise');
+UPDATE "TasLave" SET statut = 'caracterise' WHERE in_stockyard = false AND (statut IS NULL OR statut != 'caracterise');
